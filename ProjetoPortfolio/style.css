@@ -1,0 +1,323 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Lilita One", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+.cabecalho-imagem{
+    max-width: 80px;
+    transition: 0.5s ease-in-out;
+    filter: invert(100%);
+}
+
+.cabecalho-imagem:hover{
+    transform: scale(1.2);
+}
+
+.cabecalho-lista{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 30px;
+    /* padding-left: 200px; */
+    
+}
+
+.cabecalho-lista-item{
+    font-family: "Press Start 2P", system-ui;
+    cursor: pointer;
+    font-size: 28px;
+    color: rgb(212, 36, 36);
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho-lista-item:hover{
+    color: aqua;
+}
+
+.cabecalho-curriculo{
+    background-color: rgb(212, 36, 36);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    transition: 0.5s ease-in-out;
+
+}
+
+.cabecalho-curriculo:hover{
+    background-color: aqua;
+}
+
+.principal{
+    height: 100vh;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal-perfil{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(1, 0, 0, 80%);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.principal-perfil-imagem{
+    border-radius: 100%;
+    max-width: 300px;
+    border: 3px solid white;
+}
+
+.principal-titulo{
+    font-size: 35px;
+}
+
+.principal-texto{
+    font-size: 28px;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 3px solid rgb(212, 36, 36);
+}
+
+.sobre-titulo{
+    font-size: 60px;
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(212, 36, 36);
+}
+
+.sobre-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 616px;
+    height: 189px;
+    padding: 100px 0px;
+}
+
+.sobre-paragrafo1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.sobre-container1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.sobre-imagem{
+    max-width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 3px solid rgb(212, 36, 36);
+}
+
+.cursos-titulo{
+    align-self: center;
+    font-size: 60px;
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(212, 36, 36);
+}
+
+.cursos-container{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.cursos-container2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    max-width: 900px;
+    background-color: rgb(46, 42, 42);
+    padding: 30px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.cursos-container2-titulo{
+    font-size: 30px;
+}
+
+.cursos-container2-subtitulo{
+    font-size: 25px;
+    color: burlywood;
+    padding-bottom: 20px;
+}
+
+.cursos-container2-texto{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.cursos-subtitulo{
+    font-size: 40px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cursos-item{
+    font-size: 28px;
+}
+
+.cursos-img{
+    max-width: 50px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+.projetos-titulo{
+    font-size: 60px;
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(212, 36, 36);
+    align-self: center;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    border-bottom: 3px solid rgb(212, 36, 36);
+}
+
+.projetos-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;  
+    background-color: rgb(46, 42, 42);
+    padding: 40px;
+    border-radius: 40px;
+    width: 90vw;
+}
+
+.projetos-imagem{
+    max-width: 500px;
+    border-radius: 20px;
+    max-height: 400px;
+}
+
+.projetos-container-texto{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.projetos-container-titulo{
+    font-size: 30px;
+}
+
+.projetos-container-curso{
+    font-size: 25px;
+    color: burlywood;
+    padding-bottom: 20px;
+}
+
+.projetos-container-texto{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    border-bottom: 3px solid rgb(212, 36, 36);
+    padding-top: 80px;
+
+}
+
+.contato-titulo{
+    font-size: 60px;
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(212, 36, 36);
+}
+
+.contato-texto{
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+
+}.contato-texto-subtitulo{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.contato-texto-paragrafo{
+    font-size: 20px;
+}
+
+label{
+    display: block;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.rodape-paragrafo{
+    font-style: italic;
+    color: red;
+}
